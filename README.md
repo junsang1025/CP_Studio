@@ -15,6 +15,7 @@ b. Duration of how long limbs stay in a certain position
 
 ### RENDER (what is shown/what it is made of?)
 a. A ball going through a curvy trail
+
 b. A ball staying on the trail or not staying on the trail.
 
 ### STIMULATION(how does the system update itself?)
