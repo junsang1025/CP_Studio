@@ -11,6 +11,7 @@ Coded file that combines PoseNet library that detects squatting and the game of 
 ## -Deconstruction-
 ### DATA (what information is it using?)
 a. Body recognition via PoseNet
+
 b. Duration of how long limbs stay in a certain position
 
 ### RENDER (what is shown/what it is made of?)
@@ -20,10 +21,12 @@ b. A ball staying on the trail or not staying on the trail.
 
 ### STIMULATION(how does the system update itself?)
 a. By recognizing poses of the users
+
 b. A ball moving as the user is squatting.
 
 ### EVENTS (what triggers it? What happens?)
 a. Ball moves as the users move
+
 b. If the ball goes off the trail it ends the game.
 
 ## -How would it work-
