@@ -23,7 +23,6 @@ b. A ball moving as the user is squatting.
 
 ### EVENTS (what triggers it? What happens?)
 a. Ball moves as the users move
-
 b. If the ball goes off the trail it ends the game.
 
 ## -How would it work-
