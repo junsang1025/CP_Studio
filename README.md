@@ -1,1 +1,39 @@
-# CP_Studio
+# Squatty Ball.
+
+## -Summary-
+The United States is in a war against obesity. According to the Obesity Update from OECD Health Statistics, “more than one in two adults and nearly one in six children are overweight or obese in the OECD area.”  This year marks the 15th anniversary of the World Health Organization's unanimous passage of its "world strategy on diet, exercise, and health" on May 22, 2004; however, none of the countries showed a drop in obesity rates. Rather, the number of overweight adults in the world has increased steadily every year, rising rapidly from about 1 billion in 2004 to more than 2 billion in 2019. It is a proven fact that exercising regularly is one of the best ways to fight obesity. Squatty Ball allows users to enjoy the exercise by gamifying the squatting itself for a more encouraging workout-friendly environment.
+
+## -Physical Parts/Components:-
+iMac 
+Tapes for marking designated standing point
+Coded file that combines PoseNet library that detects squatting and the game of a ball going along with the route.
+
+## -Deconstruction-
+### DATA (what information is it using?)
+a. Body recognition via PoseNet
+b. Duration of how long limbs stay in a certain position
+
+### RENDER (what is shown/what it is made of?)
+a. A ball going through a curvy trail
+b. A ball staying on the trail or not staying on the trail.
+
+### STIMULATION(how does the system update itself?)
+a. By recognizing poses of the users
+b. A ball moving as the user is squatting.
+
+### EVENTS (what triggers it? What happens?)
+a. Ball moves as the users move
+b. If the ball goes off the trail it ends the game.
+
+## -How would it work-
+User will stand on the designated spot
+PoseNet will recognize the nose for the focal point of them squatting or not.
+As the user squats or moves (up & down), the ball will be shown on the screen
+The speed of the squats and the duration of certain poses to be maintained will be determined by the speed of the ball moving “forward” on the trail and the depth of the curvy trail.
+As the user goes all the way out of the trail, the game ends.
+In the end, the screen will show how long the game was prolonged and the number of squats that user has done.
+
+## -What is going to be hard-
+Making a game
+Randomizing the route in the game (duration of the rep, length)
+Combining the squat sensing code with the game
